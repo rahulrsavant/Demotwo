@@ -22,7 +22,19 @@ public PersonService() {
 	p.setId("2");
 	p.setFirstName("Aarvi");
 	p.setLastName("Sawant");
-	persons.put("2",p);	
+	persons.put("2",p);
+	
+	p=new Person();
+	p.setId("3");
+	p.setFirstName("Rahul");
+	p.setLastName("Sawant");
+	persons.put("2",p);
+	
+	p=new Person();
+	p.setId("4");
+	p.setFirstName("Varsha");
+	p.setLastName("Sawant");
+	persons.put("2",p);
 }
 
 public Person getPerson(String id) {
